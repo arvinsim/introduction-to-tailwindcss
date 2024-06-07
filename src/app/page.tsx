@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { TopNavbar } from '@/app/TopNavbar'
 import { Billboard } from './Billboard'
 import { OverridingComponents } from './OverridingComponents'
+import { FormStates } from './FormStates'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <TopNavbar />
       <Billboard />
       <OverridingComponents />
+      <FormStates />
     </div>
   )
 }
