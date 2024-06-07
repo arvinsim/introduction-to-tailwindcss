@@ -1,3 +1,14 @@
-export function Section({ children }: React.PropsWithChildren<{}>) {
-  return <section className={'w-full flex flex-col my-4'}>{children}</section>
+type SectionProps = {
+  className?: string
+}
+
+export function Section({
+  className,
+  children,
+}: React.PropsWithChildren<SectionProps>) {
+  return (
+    <section className={`w-full flex flex-col ${className}`}>
+      {children}
+    </section>
+  )
 }
