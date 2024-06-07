@@ -5,7 +5,7 @@ export function OverridingComponents() {
   return (
     <div className={'w-full flex flex-col'}>
       <div className={'text-xl mb-4'}>Overriding the styles of components</div>
-      <div className="flex flex-col space-x-4 mb-4 md:flex-row">
+      <div className="flex flex-col gap-4 space-x-4 mb-4 md:flex-row">
         <Button className={'w-6/12 md:w-max'}>
           This is the basic themed button
         </Button>
