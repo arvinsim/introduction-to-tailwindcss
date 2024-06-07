@@ -1,13 +1,11 @@
 export function Billboard() {
   return (
-    <div className={'w-8/12 text-center mx-auto p-8'}>
-      <div className={'text-6xl p-4'}>
-        Rapidly build modern websites without ever leaving your HTML.
+    <div className={'w-full text-center mx-auto p-8 md:w-6/12'}>
+      <div className={'text-3xl p-4 md:text-6xl'}>
+        Showcase for the Introduction to TailwindCSS presentation
       </div>
-      <div className="text-viki-blue-400">
-        A utility-first CSS framework packed with classes like <span>flex</span>
-        , <span>pt-4</span>, <span></span> text-center and rotate-90 that can be
-        composed to build any design, directly in your markup.
+      <div className="text-sm text-viki-blue-400 md:text-xl">
+        You can find demos and examples in here
       </div>
     </div>
   )

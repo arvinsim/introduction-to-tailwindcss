@@ -5,12 +5,10 @@ import { OverridingComponents } from './OverridingComponents'
 
 export default function Home() {
   return (
-    <div>
-      <div className={'w-full bg-viki-blue-950 h-screen'}>
-        <TopNavbar />
-        <Billboard />
-        <OverridingComponents />
-      </div>
+    <div className={'w-full bg-viki-blue-950 h-screen'}>
+      <TopNavbar />
+      <Billboard />
+      <OverridingComponents />
     </div>
   )
 }
