@@ -1,4 +1,5 @@
 import { Button } from './_components/Button'
+import { CodeBlock } from './_components/CodeBlock'
 
 export function OverridingComponents() {
   return (
@@ -10,6 +11,14 @@ export function OverridingComponents() {
           This is the same button but different style
         </Button>
       </div>
+      <CodeBlock>
+        {`
+        <Button>This is the basic themed button</Button>
+        <Button className={'bg-red-500 italic rounded-none'}>
+          This is the same button but different style
+        </Button>
+        `}
+      </CodeBlock>
     </div>
   )
 }
