@@ -13,6 +13,12 @@ export function OverridingComponents() {
       </div>
       <CodeBlock>
         {`
+        <button className={\`bg-viki-blue-800 p-2 rounded-md \${className}\`}>
+            {children}
+        </button>
+
+        ...
+
         <Button>This is the basic themed button</Button>
         <Button className={'bg-red-500 italic rounded-none'}>
           This is the same button but different style
