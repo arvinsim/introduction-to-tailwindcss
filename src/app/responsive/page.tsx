@@ -1,3 +1,5 @@
+// More information here
+// https://tailwindcss.com/docs/responsive-design
 import React from 'react'
 
 const ResponsiveDemo = () => {

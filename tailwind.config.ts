@@ -1,3 +1,5 @@
+// More information here
+// https://tailwindcss.com/docs/configuration
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -13,6 +15,38 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      /*
+      screens: {
+        'xs': '480px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
+      colors: {
+        primary: {
+          light: '#4f46e5',
+          DEFAULT: '#3b82f6',
+          dark: '#2563eb',
+        },
+        secondary: {
+          light: '#6b7280',
+          DEFAULT: '#4b5563',
+          dark: '#374151',
+        },
+        accent: {
+          light: '#d1fae5',
+          DEFAULT: '#10b981',
+          dark: '#047857',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+        mono: ['Fira Code', 'monospace'],
+      },
+      */
       colors: {
         'viki-blue': {
           '50': '#edfbff',
