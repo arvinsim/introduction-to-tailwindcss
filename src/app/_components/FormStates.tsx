@@ -1,14 +1,14 @@
-import React, { useEffect, useRef } from 'react'
-import { Section } from './_components/Section'
-import { SectionHeading } from './_components/SectionHeading'
-import { InputText } from './_components/InputText'
+import React, { useEffect, useRef } from "react";
+import { Section } from "./Section";
+import { SectionHeading } from "./SectionHeading";
+import { InputText } from "./InputText";
 
 export function FormStates() {
   return (
     <Section>
       <SectionHeading>Form States</SectionHeading>
       <div className="flex justify-center">
-        <form className={'flex flex-col items-center gap-4 md:w-6/12'}>
+        <form className={"flex flex-col items-center gap-4 md:w-6/12"}>
           <label className="block">
             <span className="block text-sm font-medium text-viki-blue-700">
               Normal
@@ -30,5 +30,5 @@ export function FormStates() {
         </form>
       </div>
     </Section>
-  )
+  );
 }

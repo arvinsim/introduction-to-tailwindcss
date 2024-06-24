@@ -29,6 +29,10 @@ export default function RootLayout({
       href: "/responsive",
       label: "Responsive",
     },
+    {
+      href: "/overriding-components",
+      label: "Overriding Components",
+    },
   ];
 
   return (
