@@ -1,5 +1,5 @@
 interface ButtonProps {
-  className?: string
+  className?: string;
 }
 
 export function Button({
@@ -7,8 +7,10 @@ export function Button({
   children,
 }: React.PropsWithChildren<ButtonProps>) {
   return (
-    <button className={`bg-viki-blue-800 p-2 rounded-md ${className}`}>
+    <button
+      className={`bg-viki-blue-800 p-2 rounded-md w-6/12 md:w-max ${className}`}
+    >
       {children}
     </button>
-  )
+  );
 }

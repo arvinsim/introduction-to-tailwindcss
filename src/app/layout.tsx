@@ -33,6 +33,14 @@ export default function RootLayout({
       href: "/overriding-components",
       label: "Overriding Components",
     },
+    {
+      href: "/modal",
+      label: "Modal",
+    },
+    {
+      href: "/states",
+      label: "States",
+    },
   ];
 
   return (
